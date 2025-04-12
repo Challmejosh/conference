@@ -15,13 +15,11 @@ const Ticket = () => {
         }}}
         >
             <h1 className="text-2xl sm:text-3xl md:text-5xl w-full md:w-[700px] text-center  font-bold ">
-                Congrats, <span className="text-gradient">{getName}!</span> Your Ticket is ready.
+                Congrats, <span className="text-linear-gradient">{getName}!</span> Your Ticket is ready.
             </h1>
-            <div className="">
-                <p className="w-full md:w-[400px] text-lg flex items-center justify-center text-center md:text-2xl leading-[35px] ">
-                    We've emailed your ticket to {getEmail} and will send updates in the run up to the event.
-                </p>
-            </div>
+                <h2 className="lg:w-[400px] text-lg text-center md:text-2xl leading-[35px] ">
+                    We've emailed your ticket to <strong className="text-[#e16151]"> {getEmail}</strong> and will send updates in the run up to the event.
+                </h2>
             <TicketComp />       
         </motion.div>
      );
