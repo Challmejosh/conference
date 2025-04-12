@@ -1,0 +1,37 @@
+@import 'tailwindcss';
+
+
+.ticket-bg {
+    background-image: url('/images/pattern-ticket.svg');
+    background-size: cover;
+    width: 900px;
+    height: 500px;
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #f0f0f0; */
+}
+.text-gradient{
+    /* color: linear-gradient(25%,  #f37362,#ffffff); */
+    color: #f37362;
+}
+@media (min-width:768px) {
+    .bg-image {
+        background-image: url('/images/background-desktop.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #333;
+    }
+}
+@media (max-width:767px) {
+    .bg-image {
+        background-image: url('/images/background-mobile.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #333;
+    }
+}
