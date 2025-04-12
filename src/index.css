@@ -11,6 +11,11 @@
     background-attachment: fixed;
     background-color: #f0f0f0; */
 }
+@utility text-linear-gradient {
+    background: linear-gradient(to right, hsl(7, 88%, 67%) 40%, hsl(0, 0%, 100%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 .text-gradient{
     /* color: linear-gradient(25%,  #f37362,#ffffff); */
     color: #f37362;
