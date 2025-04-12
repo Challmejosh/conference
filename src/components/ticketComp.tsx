@@ -34,7 +34,7 @@ const TicketComp = () => {
                     </div>
                 </div>
             </div>
-            <p className=" flex items-center text-[#8784a4] justify-center absolute right-2 sm:right-5  h-full text-sm sm:text-lg rotate-90"> #0160{Math.round(Math.random())} </p>
+            <p className="font-semibold flex items-center text-[#8784a4] justify-center absolute right-2 sm:right-5  h-full text-sm sm:text-lg rotate-90"> #0160{Math.round(Math.random())} </p>
         </motion.div>
      );
 }
